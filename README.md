@@ -5,3 +5,6 @@ use:
 
 Test:
 > curl --request PUT --data-binary "@new.py" --header "Content-Type: application/octet-stream" http://127.0.0.1:(upload port)/new.py.txt
+
+Image Thumb:
+> http://domain/path/image.(jpg|jpeg|png)_(width)x(height)
